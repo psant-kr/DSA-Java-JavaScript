@@ -33,3 +33,41 @@ import java.util.*;
         }
     }
 }
+
+
+
+// alternate method with just characters.
+
+
+// public class Main {
+//     public static void main(String[] args) {
+//         String given_str = "Oo lALa";
+//         String str = given_str.toLowerCase();
+        
+//         HashMap<Character, Integer> hs = new HashMap<>();
+        
+//         for(int i = 0; i< str.length(); i++){
+//             char c = str.charAt(i);
+            
+//             if(c != ' '){
+//                 if(hs.containsKey(c)){
+//                     int currentValue = hs.get(c);
+//                     hs.put(c, currentValue + 1);
+                    
+//                 }else{
+                    
+//                     hs.put(c, 1);
+                   
+//                 }
+                 
+//             }
+             
+//         }
+//         System.out.println(hs);
+//         for (Character keys : hs.keySet()){
+//             System.out.println(keys + " : " + hs.get(keys));
+//         }
+//     }
+// }
+
+// the above code is highly customizable.
